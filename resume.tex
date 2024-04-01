@@ -1,0 +1,209 @@
+\documentclass[a4paper]{MagicalCV}
+
+% Removing page numbers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+% Change the geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Defining your colors
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-purple}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+% start document
+\begin{document}
+
+% Last update time
+% \lastupdated
+
+% Title name
+
+\namesection{\Huge NICOLAS BENJAMIN}{OCAMPO}{
+{\color{VividPurple} \normalsize \faLink} \normalsize \hspace{0.2em} \href{https://nicolasbenjaminocampo.com}{nicolasbenjaminocampo.com} \hspace{0.8em}%\\[0.6em]
+\email{\normal \href{mailto:nicolas-benjamin.ocampo@unice.fr}{nicolas-benjamin.ocampo@unice.fr}} \hspace{0.4em}
+\linkedin{\normal \href{https://www.linkedin.com/in/nicolasbenjaminocampo/}{nicolasbenjaminocampo}}
+\\[1em]}
+
+\begin{minipage}[t]{0.36\textwidth} 
+
+% Educationdoc
+\cvsection{Education} 
+
+\subsection{Ph.D. in Computer Science}
+\descript{Université Côte d’Azur}
+\cvevent{Jan 2022 - Present}{Nice, France} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Research on detecting implicit and subtle abusive/hateful messages in social media. Develop detecting methods and counter-narratives for healthy debates and freedom of speech.
+\sectionsep
+
+\subsection{M.S. in Computer Science}
+\descript{Universidad Nacional de Córdoba}
+\cvevent{Jan 2020 - Dec 2021}{Córdoba, Argentina}
+\textbf{Thesis title}: \href{https://rdu.unc.edu.ar/handle/11086/22979}{\textit{``Use of relaxed plans in heuristic grounding"}} in the \href{https://liisgroup.github.io/}{Logics, Interaction and Intelligent Systems (LIIS)} research group at \href{https://www.famaf.unc.edu.ar/}{FaMAF}.
+
+\textbf{Achievements}: Diploma awarded with ``special mention" (GPA 9.59 over 10).
+\sectionsep
+
+\subsection{B.S. in Computer Science}
+\descript{Universidad Nacional de Córdoba}
+\cvevent{Jan 2017 - Dec 2019}{Córdoba, Argentina}
+
+% Coursework
+\cvsection{Doctoral Trainings}
+\subsection{Presented Seminars}
+\textit{``Détection subtile du langage abusif"} presented in My thesis in 180 seconds, Université Côte d’Azur.
+\cvevent{Mar 29th, 2023}{Cannes, France} 
+\sectionsep
+
+\textit{``We Need Two Poke Flutes to Wake You Up'' an In-depth Analysis of Implicit and Subtle Hate Speech Messages"} presented in the 3IA PhD/Postdoc Seminars. \cvevent{Sep 2nd, 2022}{Sophia Antip., France}
+\sectionsep
+
+\textit{``Towards Subtle and Implicit Hate Speech Detection"} presented in the Franco-German Workshop.
+\cvevent{Jun 14th-15th, 2022}{Paris, France}
+\sectionsep
+
+\subsection{Attended Summer Schools}
+\textit{``Language Technologies: Deep Learning"} at Universidad del País Vasco. 
+\cvevent{Jul 4th-8th, 2022}{San Sebastián, Spain}
+
+% Skills
+%\cvsection{Skills}
+
+%\subsection{Programming}
+%Python \textbullet{}   R \textbullet{} PHP \textbullet{} C/C++ \textbullet{} HTML/CSS  \textbullet{}
+%JavaScript \textbullet{} SQL 
+%\sectionsep
+%\subsection{Miscellaneous}
+%Shell \textbullet{} \LaTeX \textbullet{} Tableau \textbullet{} Microsoft Office \textbullet{} Firebase \textbullet{} Git
+%\sectionsep
+
+% Honors
+\cvsection{Awards} 
+
+\subsection{10 Jóvenes Sobresalientes}
+\descript{Bolsa de Comercio de Córdoba}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\href{https://bolsacba.com.ar/certamen/ganadores.php}{\faLink} Selected as one of Córdoba, Argentina's top young people in 2022 for dedication to study and research.
+\sectionsep
+
+\subsection{Premio Universidad}
+\descript{Universidad Nacional de Córdoba}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\href{https://www.unc.edu.ar/comunicaci\%C3\%B3n/premios-universidad-la-unc-distingui\%C3\%B3-las-personas-con-mejores-promedios-que-egresaron}{\faLink} Second-best GPA in 2021 that concluded their Bachelor's and Master's studies in the required time.
+
+% Column two
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.60\textwidth} 
+
+% Experience
+\cvsection{Work Experience}
+
+\runsubsection{Teaching} \\
+\descript{Université Côte d’Azur}
+\cvevent{Jan 2022 - Present}{Nice, France} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Deliver lectures and labs at the Master's/post-graduate levels, teaching \textbf{64 hours per year} at 3IA Côte d’Azur and Digital Lab/Centrale Marseille.
+\sectionsep
+
+%\runsubsection{Teaching Assistant / Mentor} \\
+\descript{Universidad Nacional de Córdoba - FaMAF}
+\cvevent{Mar 2020 - Mar 2022}{Córdoba, Argentina} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Teaching 6-month CS courses totaling \textbf{4 hours per week}, creating materials, leading online meetings, and providing chat support.
+
+\textbf{Courses}: Programming paradigms, Algorithms and data structures I, Networks, Operating systems.
+\sectionsep
+
+%\runsubsection{Teaching Assistant} \\
+\descript{Instituto Técnico Superior Córdoba}
+\cvevent{Sep 2020 - May 2021}{Córdoba, Argentina} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Assisted students in oral exam preparation, presentation skills practice, and assignment presentations totaling \textbf{15 hours per month}.
+
+\textbf{Courses}: User Interface, Software Validation and Verification.
+\sectionsep
+
+\runsubsection{Software Development Intern} \\
+\descript{SimTLix (now intive)}
+\cvevent{Oct 2021 - Dec 2021}{Córdoba, Argentina} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+3-month internship enhancing machine learning models for shoulder scan segmentation to assist doctors in prosthesis treatment.
+%\cvsection{Internships} \\
+
+% Publications
+% Competitions
+\cvsection{Participation in Scientific Activities}
+
+\runsubsection{Reviewing activities for international top NLP and AI conferences} \\
+\descript{}
+%\cvevent{Apr 2022 - May 2022}{Sophia Antipolis, France} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Reviewer in ECAI2023, EACL2023, CMNA2022, and ArgMining2022.
+\sectionsep
+
+\runsubsection{Journée Natural Language Argumentation Workshop Organizer} \\
+\descript{Université Cote D'azur}
+\cvevent{Nov 27th, 2023}{Sophia Antipolis, France}
+\vspace{\topsep}
+Organized and assisted in the Natural Language Argumentation Workshop, managing keynote sessions and overseeing administrative tasks.
+\sectionsep
+
+\runsubsection{Student Volunteer} \\
+\descript{EACL 2023 Conference}
+\cvevent{May 2nd-6th, 2023}{Dubrovnik, Croatia} 
+\vspace{\topsep}
+Volunteered at EACL 2023, assisting with in-person conference events and plenary sessions.
+\sectionsep
+
+\runsubsection{MOMI Workshop Organizer} \\
+\descript{Inria Sophia Antipolis Méditerranée}
+\cvevent{Apr 2022 - May 2022}{Sophia Antipolis, France} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Organized MOMI 2022 workshop, managing website updates, speaker coordination, catering, registration, and overall event coordination.
+\sectionsep
+\end{minipage}
+
+\newpage
+
+\begin{minipage}[t]{1\textwidth} 
+\cvsection{Publications}
+
+\subsection{Unmasking the Hidden Meaning: Bridging Implicit and Explicit Hate Speech Embedding Representations}
+\cvevent{Dec 2023}{Singapore}
+N.B. Ocampo, E. Cabrio, and S. Villata \\
+\href{https://aclanthology.org/2023.findings-emnlp.441/}{\faLink} Findings of the Association for Computational Linguistics (EMNLP 2023). \\ \textbf{Conference CORE Rank: A}.
+\sectionsep
+
+\subsection{Playing the Part of the Sharp Bully: Generating Adversarial Examples for Implicit Hate Speech Detection}
+\cvevent{Jul 2023}{Toronto, Canada}
+N.B. Ocampo, E. Cabrio, and S. Villata \\
+\href{https://aclanthology.org/2023.findings-acl.173}{\faLink} Findings of the Association for Computational Linguistics (ACL 2023). \\ \textbf{Conference CORE Rank: A*}.
+\sectionsep
+
+\subsection{An In-depth Analysis of Implicit and Subtle Hate Speech Messages}
+\cvevent{May 2023}{Dubrovnik, Croatia}
+N.B. Ocampo, E. Sviridova, E. Cabrio, and S. Villata \\
+\href{https://aclanthology.org/2023.eacl-main.147}{\faLink} Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2023). \\ \textbf{Conference CORE Rank: A}.
+
+\end{minipage}
+
+\end{document}  
